@@ -9,6 +9,8 @@ does not require the `r2d2-data` command-line package.
 Load the R2D2 client environment before running the tool. The example module
 script can be adapted for your environment:
 
+after editing and adding your R2D2 credentials (make sure you never commit your credentials back to the code base):
+
 ```bash
 source load_modules_example.sh
 ```
