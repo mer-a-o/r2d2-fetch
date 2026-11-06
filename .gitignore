@@ -1,0 +1,14 @@
+# Downloaded R2D2 data and runner reports
+forecasts/
+analysis/
+feedback/
+observations/
+failed_*.txt
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+
+# Local credentials and environment files
+.env
+.env.*
