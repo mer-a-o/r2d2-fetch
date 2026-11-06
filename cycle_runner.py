@@ -19,8 +19,8 @@ from r2d2_data.common import fmt_date, parse_date, parse_interval, target_filena
 # Configuration
 # ============================================================
 
-START_DATE = "2025-04-11T03:00:00Z"
-END_DATE = "2025-04-12T03:00:00Z"
+START_DATE = "2026-07-13T15:00:00Z"
+END_DATE = "2026-07-17T15:00:00Z"
 CYCLE_INTERVAL = "PT6H"
 ACTION = "fetch"                 # "search" or "fetch"
 
@@ -47,8 +47,8 @@ ITEM_CONFIGS = {
     #     "output_dir": "analysis",
     # },
     "feedback": {
-        "experiment": "cfv3_3dvar_cycle",
-        "observation_types": ["tropomi_s5p_no2_tropo"],
+        "experiment": "training_ops_cf_hofx",
+        "observation_types": ["tropomi_s5p_no2_tropo", "mls_o3_res", "omps_o3_nm_total"],
         "window_length": "PT6H",
         "member": -9999,
         "file_extension": "nc4",
